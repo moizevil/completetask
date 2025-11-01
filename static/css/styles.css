@@ -1,0 +1,94 @@
+/* Body Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Image */
+.background-image {
+    background: url('https://via.placeholder.com/1500') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* Login Form Container */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Trusted Badge */
+.trusted-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Task Info */
+.task-info {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
